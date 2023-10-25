@@ -106,7 +106,7 @@ load the user using the :ref:`user provider <security-user-providers>`.
 
 .. caution::
 
-    It is important to check the token if is valid. For instance, the
+    It is important to check if the token is valid. For instance, the
     example above verifies whether the token has not expired. With
     self-contained access tokens such as JWT, the handler is required to
     verify the digital signature and understand all claims, especially
